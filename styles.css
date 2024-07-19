@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center; /*Horizontal centering*/
+    align-items: center; /*Vertical centering*/
+    background: url(./680756.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 100%; /*Ensures full space taken up on smaller screens*/
+    max-width: 650px; /*Ensures not becoming too big on bigger screens*/
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
