@@ -23,3 +23,81 @@ body {
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
 }
+
+.form-title {
+    margin-top: 10px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    text-shadow:  2px 2px 2px black;
+    border-bottom: 1px solid white;
+}
+
+.main-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-input-box {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label {
+    color: white;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.user-input-box input {
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.gender-title {
+    color: white;
+    font-size: 24px;
+    border-bottom: 1px solid white;
+}
+
+.gender-category {
+    margin: 15px 0;
+    color: white;
+}
+
+.gender-category label {
+    padding: 0 20px 0 5px;
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit-button input {
+    cursor: pointer;
+}
+
+.form-submit-button {
+    margin-top: 40px;
+}
+
+.form-submit-button input {
+    display: block; /*Takes up full width of parent container*/
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgba(209, 209, 209);
+    background: rgba(63, 114, 76, 0.7);
+}
+
+.form-submit-button:hover {
+    background: rgba(56, 204, 93, 0.7);
+    color: rgba(255, 255, 255);
+}
